@@ -1,0 +1,221 @@
+@import "tailwindcss";
+
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #f5f0f0;
+  color: #3e3e3e;
+  overflow-x: hidden;
+}
+
+p{
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 600;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #ccc;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #fff;
+}
+
+.container{
+  width: 95%;
+  margin: auto;
+}
+
+.link:hover{
+  color: #ff5252;
+}
+
+.MuiBadge-badge{
+  background-color: #ff5252 !important;
+}
+
+.MuiTabs-indicator{
+  background-color: #ff5252 !important;
+}
+
+.MuiTab-textColorPrimary.Mui-selected{
+  color: #ff5252 !important;
+}
+
+footer form input::placeholder{
+  font-size: 14px;
+}
+
+.css-imrjgg-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-imrjgg-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate{
+  color: #ff5252 !important;
+}
+
+.MuiFormControlLabel-label{
+  font-size: 13px !important;
+  color: rgba(0,0,0,0.8) !important;
+}
+
+.sidebar .list .MuiCheckbox-root{
+  padding: 6px;
+}
+
+.itemviewaction button.active svg{
+  color: #ff5252 !important;
+  opacity: 1;
+}
+
+.Mui-selected.MuiPaginationItem-page{
+  background-color: #ff5252 !important;
+  color: #fff !important;
+}
+
+/* react collapse */
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
+/* product zoom */
+
+.zoomproductslider .swiper-wrapper{
+  padding-top: 25px !important;
+}
+
+.zoomproductslider .swiper-button-next{
+  bottom: 0px !important;
+  right: inherit !important;
+  top: inherit !important;
+  width: 100% !important;
+height: 25px !important;
+border-radius: 0px !important;
+}
+
+.zoomproductslider .swiper-button-prev{
+  top: 20px !important;
+  right: inherit !important;
+  left: 0px;
+  width: 100% !important;
+  height: 25px !important;
+  border-radius: 0px !important;
+}
+
+.zoomproductslider .swiper-button-prev:hover,.zoomproductslider .swiper-button-next:hover{
+  background-color: #ff5252 !important;
+}
+
+.zoomproductslider .swiper-button-prev:hover::after,.zoomproductslider .swiper-button-next:hover::after{
+  color: #fff;
+}
+
+.zoomproductslider .swiper-button-prev::after,.zoomproductslider .swiper-button-next::after{
+  transform: rotate(90deg);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.btn-org{
+  background-color: #ff5252 !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  padding: 7px 20px !important;
+}
+
+.btn-org:hover{
+  background-color: #171717 !important;
+}
+
+.btn-lg{
+  font-size: 18px; padding: 10px 20px !important;
+}
+
+.btn-org.btn-border{
+background: none !important;
+color: #ff5252 !important;
+border: 1px solid #ff5252;
+font-weight: 500;
+font-size: 16px;
+padding: 7px 20px;
+}
+
+.btn-org.btn-border:hover{
+background-color: #171717 !important;  
+color: #fff !important;
+border: 1px solid #171717;
+}
+
+.btn-sm{
+  font-size: 12px !important;
+  padding: 5px 20px !important;
+}
+
+.cartpannel .MuiPaper-root{
+  width: 400px ;
+  overflow: hidden;
+}
+
+/* cart */
+#size-menu .MuiButtonBase-root,#qty-menu .MuiButtonBase-root{
+  font-size: 12px;
+}
+
+/* otp box */
+.otpBox input{
+  border: 1px solid rgba(0,0,0,0.3) !important;
+  outline: none !important;
+  border-radius: 4px;
+}
+
+.otpBox input:focus{
+  border: 1px solid rgba(0,0,0,0.7) !important;
+}
+
+/* account menu */
+#account-menu .MuiPaper-root{
+  width: 170px !important;
+}
+
+/* My Account page */
+.myaccount-tabs li a{
+  position: relative;
+  display: block;
+}
+
+.myaccount-tabs li a::before{
+  content: "";
+  height: 100%;
+  width: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff5252;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.myaccount-tabs li a.active::before{
+  height: 100%;
+  opacity: 1;
+  top: 0;
+}
+
+.myaccount-tabs li a.active button svg{
+  color: #ff5252;
+}
+
+/* isloading circular */
+button .MuiCircularProgress-root{
+  width: 25px !important;
+  height: 25px !important;
+}
